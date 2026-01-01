@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(85, 85, 85);
+}
+header{
+    background-color: navy;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+main{
+    margin: 0px;
+    height: 1000px;
+    .section1{
+        margin: 30px;
+        padding: 0px;
+        background-color: white;
+        .Profi{
+            color: white;
+            background-color: navy;
+            text-align: center;
+            padding: 10px;
+        }
+        .profile{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            .box{
+                width: 50px;
+                background-color: white;
+            }
+            }
+        }
+    .section2{
+        margin: 30px;
+        padding: 0px;
+        background-color: white;
+        .Project{
+            padding: 10px;
+            text-align: center;
+            background-color: navy;
+            color: white;
+        }
+        .Project_info{
+            padding: 20px;
+            background-color: rgb(219, 219, 219);
+            .SQL{
+                background-color: white;
+                padding: 20px;
+                border-radius: 10px;
+                .SET50{
+                    padding: 20px 0px;
+                }
+                .set50info{
+                    padding: 10px 0px;
+                }
+                .ReadMore1{
+                    background-color: navy;
+                    padding: 10px;
+                    display: inline-block;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                .ReadMore{
+                    background-color: navy;
+                    padding: 10px;
+                    display: inline-block;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .MathModel{
+                background-color: white;
+                padding: 20px;
+                border-radius: 10px;
+                .MMD{
+                    padding: 20px 0px;
+                }
+                .MMDinfo{
+                    padding: 10px 0px;
+                }
+                .dl{
+                    background-color: navy;
+                    padding: 10px;
+                    display: inline-block;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                .dl2{
+                    background-color: navy;
+                    padding: 10px;
+                    display: inline-block;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    ul{
+        list-style: none;
+    }
+}
